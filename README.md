@@ -194,7 +194,7 @@ No `draw()` or serialization methods are added to the numerical model.
 
 ## Migration and development
 
-The root `ladder_layout.py` and `db/sensor_type.py` were removed; their consumers
+The root `ladder_layout.py` and `sts_db_api/sensor_type.py` were removed; their consumers
 now import this package directly. The support table moved to `supports.py`.
 Metrology uses the ordered module identities stored with its layout, rather than
 querying the database again when assigning fit results.

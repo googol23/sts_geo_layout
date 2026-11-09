@@ -6,7 +6,7 @@ def test_core_import_has_no_optional_or_workspace_dependencies(tmp_path):
     code = """
 import sys
 from sts_geo_layout import LadderLayout, SensorType
-assert not {'yaml', 'matplotlib', 'psycopg2', 'db', 'ladder_layout'} & sys.modules.keys()
+assert not {'yaml', 'matplotlib', 'psycopg2', 'sts_db_api', 'ladder_layout'} & sys.modules.keys()
 assert LadderLayout([SensorType(1)] * 2).n_sensors == 2
 """
     subprocess.run(

@@ -1,4 +1,4 @@
-"""Read-only assembly database adapter; no dependency on workspace db/ modules."""
+"""Read-only assembly adapter; no dependency on workspace sts_db_api modules."""
 
 import os
 from contextlib import contextmanager
