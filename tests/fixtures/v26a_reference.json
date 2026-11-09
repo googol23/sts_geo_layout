@@ -1,0 +1,37 @@
+{
+  "source": "create_stsgeo_v26a.C",
+  "source_sha256": "de9f544712798714fa397e6e18164b266e2b9cb75d18de314a76bbc89a919f85",
+  "source_sections": "Config::BuildLadders, Config::fSensorTypes, ConstructHalfLadder, CreateLadder",
+  "overlap_mm": 4.6,
+  "max_half_ladder_slots": 5,
+  "sensor_sizes_mm": {"1": [62, 22], "2": [62, 42], "3": [62, 62], "4": [62, 124]},
+  "ladders": [
+    {
+      "name": "L0DL200109",
+      "half_sensor_ids": [1, 1, 2, 3, 3],
+      "layout": ["k62_22", "k62_22", "k62_42", "k62_62", "k62_62"],
+      "length_mm": 480.0,
+      "cutout_mm": 0.0,
+      "half_offset_mm": -2.3,
+      "positive_copy_y_mm": [8.7, 26.1, 53.5, 100.9, 158.3]
+    },
+    {
+      "name": "L4DL000161",
+      "half_sensor_ids": [2, 3, 4, 4],
+      "layout": ["k62_42", "k62_62", "k62_124", "k62_124", "kNone"],
+      "length_mm": 818.0,
+      "cutout_mm": 82.0,
+      "half_offset_mm": 41.0,
+      "positive_copy_y_mm": [62.0, 109.4, 197.8, 317.2]
+    },
+    {
+      "name": "L6DR700021",
+      "half_sensor_ids": [4],
+      "layout": ["k62_124", "kNone", "kNone", "kNone", "kNone"],
+      "length_mm": 892.0,
+      "cutout_mm": 0.0,
+      "half_offset_mm": -2.3,
+      "positive_copy_y_mm": [59.7]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "L0DL200109": {
+    "sensor_types": [3, 3, 2, 1, 1, 1, 1, 2, 3, 3],
+    "cutout_size": 0.0,
+    "length": 480.0,
+    "half_ladder_offset_y": -2.3
+  },
+  "L4DL000161": {
+    "sensor_types": [4, 4, 3, 2, 2, 3, 4, 4],
+    "cutout_size": 82.0,
+    "length": 818.0,
+    "half_ladder_offset_y": 41.0
+  },
+  "L6DR700021": {
+    "sensor_types": [4, 4],
+    "cutout_size": 0.0,
+    "length": 892.0,
+    "half_ladder_offset_y": -2.3
+  }
+}
